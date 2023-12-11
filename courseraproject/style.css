@@ -4,6 +4,7 @@ body{
     margin-top: 3rem;
     margin-bottom: 3rem;
     background-color: black;
+    font-family: sans-serif;
 }
 h1 {
     font-size: 3rem;
@@ -15,7 +16,7 @@ h2 {
     text-align: center;
 }
 p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 header > img{
     display: block;
@@ -57,6 +58,10 @@ article {
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 100px;
+    box-shadow: 4px 4px 10px white ;
+}
+article:hover{
+    box-shadow: none;
 }
 hr{
     border-top: solid white;
@@ -77,9 +82,10 @@ footer > div > p{
     background-color: white;
     padding-left: 30px;
     padding-right: 30px;
+   
 }
 .card > img {
-    padding-left: 28%;
-    width: 300px;
-    height: 300px;
+    padding-left: 25%;
+    width: 200px;
+    height: 200px;
 }
